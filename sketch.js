@@ -6,6 +6,7 @@ const Body = Matter.Body;
 
 var bobObject1, bobObject2, bobObject3, bobObject4, bobObject5
 var roof, rope1, rope2, rope3, rope4, rope5;
+var bobDiameter = 10;
 
 function preload()
 {
@@ -23,7 +24,7 @@ function setup() {
 	bobObject4 = new Bob(410, 500, 35);
 	bobObject5 = new Bob(480, 500, 35);
 	roof = new Roof(335, 210, 400, 20)
-	rop1 = new Rope(bobObject1.body, roof.body, bobDiameter*2, 0)
+	rop1 = new Rope(bobObject1.body, roofObject.body, bobDiameter*2, 0);
 
 	//Create the Bodies Here.
 
