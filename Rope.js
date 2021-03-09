@@ -9,7 +9,7 @@ class Rope{
             stiffness : 0.5,
             length : 100
         };
-        this.Rope = Constraint.create(options);
+        this.rope = Constraint.create(options);
         World.add(world, this.rope);
     }
 
