@@ -7,7 +7,7 @@ class Rope{
             bodyB : body2,
             pointB:{x:this.offsetX, y:this.offsetY},
             stiffness : 0.5,
-            length : 100
+            length : 300
         };
         this.rope = Constraint.create(options);
         World.add(world, this.rope);
