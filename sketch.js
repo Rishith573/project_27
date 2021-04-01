@@ -43,8 +43,6 @@ function draw() {
   rectMode(CENTER);
   background(240);
 
-  textSize(20);
-  text(mouseX + ',' + mouseY, 100, 100)
 
 	bobObject1.display();
 	bobObject2.display();
